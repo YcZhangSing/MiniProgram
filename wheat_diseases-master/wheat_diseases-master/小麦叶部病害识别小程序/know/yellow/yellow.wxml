@@ -1,0 +1,35 @@
+<!--know/rust/rust.wxml-->
+<view id='body'>
+    <view id='img-play'>
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<block wx:for="{{imgUrls}}">
+<swiper-item>
+<image src="{{item}}" class="slide-image" />
+</swiper-item>
+</block>
+</swiper>
+
+    </view>
+
+    <view id='ill_feature' class="xx">
+        <view class='title'>·防治策略</view>
+<p class='stitle'>1.种子预防</p>
+<p>每50千克麦种用75%三九一一0.1-0.15千克加水3-4千克拌种，拌后堆闷12小时，残效期35天左右。</p>
+<p class='stitle'>2.喷药治蚜</p>
+<p>在一般情况下，拌种地块冬前可以不治蚜，但如气温较高，干旱，则必须加强田闻麦蚜调查，根据各地虫情，在10月下旬至11月中旬喷1次药，以防止麦蚜在田间蔓延、扩散，减少麦蚜越冬基数。冬麦返青后，到拔节期防治1-2次，就能控制麦蚜与小麦黄矮病的流行。春麦区根据虫情，在5月上、中旬喷药效果较好。</p>
+<p class='stitle'>3.栽培管理</p>
+<p>尽量压缩糜子的种植面积，按排好茬口，冬麦区避免过早过迟播种小麦，春麦区适当早播。</p>
+<p class='stitle'>4.选用良种</p>
+<p>冬麦区目前主要有太原89、太原116、晋农3号、晋农17、延安1号、4号、6号及11号、卫东1号、晋中849、北京5号等。春麦区有劲麦1号、内乡5号等。</p>
+    </view>
+
+    <view id='fangzhi' class="xx">
+        <view class='title'>·病害特征</view>
+        <p>小麦黄矮病主要为害叶片，表现为叶片变黄和植株变矮。 [3]  病株叶片尖端岀现鲜明的黄色，逐渐向下扩展，呈现与叶脉平行但不受叶脉限制的黄绿相间条纹。病株有不同程度的矮化。叶色的变化随品种特性不同而不同，有的为黄色至橙黄色，有的为红色至紫红色。矮化程度与感病的早迟有关般苗期感病，植株明显矮化，分蘖少，长势差，后期不能抽穗或仅抽少量秕穗。中期发病植株较矮，新叶以下第一或第二叶变黄，能抽穗但穗小，结实率低。后期感病仅剑叶变黄，植株无明显矮化，能正常抽穗，但穗粒少，秕粒多。</p>
+        <p> </p>
+    </view>
+    <view id='back'>
+        <button class='Scancode' bindtap='browse'>去拍照识别</button>
+    </view>
+
+</view>

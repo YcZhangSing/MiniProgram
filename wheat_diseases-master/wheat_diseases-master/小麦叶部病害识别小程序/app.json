@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "index/index",
+    "cropper/cropper",
+    "know/know",
+    "know/rust/rust",
+    "know/yellow/yellow",
+    "res/res",
+    "res2/res2"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#1AAD19",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "index/index",
+      "borderStyle": "black",
+      "text": "识别",
+      "iconPath": "images/识别.png",
+      "selectedIconPath": "images/S_识别.png"
+    },
+    {
+      "pagePath": "know/know",
+      "text": "科普",
+      "iconPath": "images/科普.png",
+      "selectedIconPath": "images/S_科普.png"
+    }]
+  }
+
+}
+

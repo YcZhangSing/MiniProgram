@@ -1,0 +1,30 @@
+<!--know/rust/rust.wxml-->
+<view id='body'>
+    <view id='img-play'>
+       <image src="/images/deresulit.jpg" ></image>
+        <view>{{src}}</view>
+    </view>
+
+    <view id='ill_feature' class="xx">
+        <view class='title'>·识别结果</view>
+        <p class='res' style="font-weight: 550;">    ·  小麦条锈病</p>
+        <p class='res' style="font-weight: 550;">    ·  健康叶片</p>
+        <p class='res' style="font-weight: 550;">    ·  小麦黄矮病</p>
+        <p class='res' style="font-weight: 550;">    ·  其他黄化症</p>
+
+        <view class='title'>·防治措施</view>
+        <p class='res' style="font-weight: 550;">·  小麦条锈病</p>
+        <p>可用丙环唑乳油或粉锈宁可湿性粉剂或粉锈宁乳油喷洒。若病情未见缓解，可在10天后进行第2次喷药</p>
+        <p class='res' style="font-weight: 550;">·  小麦黄矮病</p>
+        <p>50%灭蚜松乳油1:（1000-1500）；40%乐果乳油1:（1000-1500）；50%一六O五乳油1:（2000-3000）；50%甲基一六O五1:2000；40%乐果乳油0.05千克，加水0.5千克，拌15千克砂土，配成毒土，每亩撒315千克；1%一六O五粉或1.5%乐果粉每亩喷1.5千克</p>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+    </view>
+    <view id='back'>
+        <button class='Scancode' bindtap='browse_y'>关于黄矮病</button>
+        <button class='Scancode' bindtap='browse_r'>关于条锈病</button>
+    </view>
+
+</view>

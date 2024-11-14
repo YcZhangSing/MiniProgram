@@ -1,0 +1,36 @@
+
+    .goods_item{
+      display: flex;
+      flex-direction: column;
+      border-bottom: 7rpx solid #ccc;
+      border-top: 7rpx solid #ccc;
+      margin-bottom: 23px ;
+    }
+      .goods_img_wrap{
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding:5px 0;
+      }
+
+      .goods_info_wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        flex: 3;
+      }
+        .goods_price{
+            color: #4bbb57;
+          font-size: 1.2em;
+        }
+        navigator{
+            background-color: honeydew;
+        }
+        #firsttab{
+            color: white;
+        }
+
+  

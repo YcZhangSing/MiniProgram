@@ -1,0 +1,22 @@
+<!--know/rust/rust.wxml-->
+<view id='body'>
+    <view id='img-play'>
+        <image src="{{src}}" class="slide-image" />
+        <view>{{src}}</view>
+    </view>
+
+    <view id='ill_feature' class="xx">
+        <view class='title'>·识别结果</view>
+        <p class='stitle'>小麦黄矮病重症</p>
+    </view>
+
+    <view id='fangzhi' class="xx">
+        <view class='title'>·防治措施</view>
+        <p>在一般情况下，拌种地块冬前可以不治蚜，但如气温较高，干旱，则必须加强田闻麦蚜调查，根据各地虫情，在10月下旬至11月中旬喷1次药，以防止麦蚜在田间蔓延、扩散，减少麦蚜越冬基数。冬麦返青后，到拔节期防治1-2次，就能控制麦蚜与小麦黄矮病的流行。春麦区根据虫情，在5月上、中旬喷药效果较好。</p>
+        <p> </p>
+    </view>
+    <view id='back'>
+        <button class='Scancode' bindtap='browse'>更多信息</button>
+    </view>
+
+</view>

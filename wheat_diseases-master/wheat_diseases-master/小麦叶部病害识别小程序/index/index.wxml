@@ -1,0 +1,30 @@
+<!--index.wxml-->
+
+<view class="img-list">
+    <view class="list">
+        <!-- 图片展示列表 -->
+        <view class="li" wx:for="{{imgList}}" wx:key="index">
+            <view id='bview'>
+              <view id='bki-con'>
+                <image id="background" src="https://s2.loli.net/2022/07/10/I7l9PE3D8cVFLzb.jpg"></image>
+              </view>
+            </view>
+            <image class="file" src="{{item}}"></image>
+        </view>
+    </view>
+</view>
+<view id='body'>
+<view class="radio_">
+<radio-group bindchange="radioChange">
+  <radio value="whole">
+    <label for="whole">整张图</label>
+  </radio>
+  <radio value="cutting" color="rgb(75, 187, 87)" checked="true">
+    <label for="cutting">裁剪图</label>
+  </radio>
+</radio-group>
+</view>
+<view class="btn" bindtap="browse">获取图片</view>
+<view class="btn" bindtap="conversionAddress" >上 传</view>
+<view style="height: 100%;width: 100%; background-color: honeydew;"> </view>
+</view>

@@ -1,0 +1,30 @@
+<!--know/rust/rust.wxml-->
+<view id='body'>
+    <view id='img-play'>
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height: 400rpx;">
+            <block wx:for="{{imgUrls}}">
+            <swiper-item>
+            <image src="{{item}}" class="slide-image" style="height: 400rpx;"/>
+            </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+    <view id='ill_feature' class="xx">
+        <view class='title'>·防治策略</view>
+<p class='stitle'>1.种子预防</p>
+<p>粉锈宁、三唑醇和戊唑醇对种子进行药剂包衣或拌种处理</p>
+<p class='stitle'>2.大田喷药</p>
+<p>当小麦条锈病的病叶率为1-2%时，可用丙环唑乳油或粉锈宁可湿性粉剂或粉锈宁乳油喷洒。若病情严重，可在10天后进行第2次喷药</p>
+    </view>
+
+    <view id='fangzhi' class="xx">
+        <view class='title'>·病害特征</view>
+        <p>小麦条锈病自小麦出苗至成熟都有可能会发生，危害的主要部位是叶片，其次是叶鞘、茎秆，也侵染穗部、颖壳和芒等组织。小麦在不同生长期感染之后产生的基本症状存有较大差异性。其中在苗期生长阶段感染条锈病之后，在小麦幼苗生长中叶片上会产生较多夏孢子堆，大多都是呈现为多层轮状分布排列形式。小麦种植生长中成株感染小麦条锈病，在发病初期阶段小麦叶脉上会产生较多椭圆形夏孢子堆以及鲜黄色长条子堆，发病之后小麦叶片生长发生破裂，开始产生诸多粉状物体。当小麦在接近成熟期受到小麦条锈病侵袭，在发病初期阶段小麦叶鞘上会出现较多圆形夏孢子堆以及黑褐色卵圆形孢子堆。发病后期阶段开始出现短线状黑色冬孢子堆。</p>
+        <p> </p>
+    </view>
+
+</view>
+    <view id='back'>
+        <button class='Scancode' bindtap='browse'>去拍照识别</button>
+    </view>

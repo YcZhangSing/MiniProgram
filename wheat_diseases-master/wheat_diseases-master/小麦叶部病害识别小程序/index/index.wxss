@@ -1,0 +1,106 @@
+.intro {
+  background: #292929;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  margin-top: -20%;
+  overflow: hidden;
+  border-radius: 100%;
+  width: 200rpx;
+  height: 200rpx;
+  border: 4rpx solid #fff5f7;
+  line-height: 200rpx;
+  color: #fff5f7;
+}
+
+.head>image {
+  width: 100%;
+}
+
+.btn {
+  background:rgb(75, 187, 87);
+  width: 680rpx;
+  border-radius: 10rpx;
+  line-height: 88rpx;
+  color: rgb(255, 251, 251);
+  text-align: center;
+  margin: 50rpx auto 0;
+}
+
+.img-list {
+  width: 700rpx;
+  margin: 0 auto;
+  /* background-image: url('https://s2.loli.net/2022/07/10/I7l9PE3D8cVFLzb.jpg');
+  background-repeat: no-repeat; */
+}
+#bview{
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+#bki-con{
+  padding-left: 10%;
+  padding-right: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img-list .txt {
+  width: 680rpx;
+  padding: 40rpx 0 20rpx;
+  margin: 0 auto;
+  color: #b2b2b2;
+}
+
+.img-list .list {
+  width: 700rpx;
+  overflow: hidden;
+}
+
+.img-list .list .li {
+  width: 680rpx;
+  margin: 10rpx 0 0 10rpx;
+  border: 1rpx solid #fff;
+  float: left;
+  position: relative;
+}
+
+.img-list .list .li:last-child {
+  border: 1rpx solid #f7f7f7;
+}
+
+.file{
+  display: block;
+  width: 100%;
+}
+.img-list .list .li {
+  display: block;
+  width: 100%;
+}
+
+.img-list .list .li .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44rpx;
+  height: 44rpx;
+  background: rgb(12, 34, 27);
+}
+.radio_{
+  width: 680rpx;
+  border-radius: 10rpx;
+  line-height: 88rpx;
+  text-align: center;
+  margin: 50rpx auto 0;
+}
+page{
+  background-color: honeydew;
+}

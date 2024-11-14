@@ -1,0 +1,77 @@
+/* know/rust/rust.wxss */
+#body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.title{
+    color: rgb(75, 187, 87);
+    size: 80px;
+    font-weight: bolder;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 13px;
+    border-right: solid rgb(75,187,87) 3px;
+}
+.xx{
+    display: flex;
+    flex-direction: column;
+}
+
+.stitle{
+    font-weight: bolder;
+
+}
+
+
+.xx{
+    border: solid gray 1px;
+    margin-bottom: 5px;
+}
+p{
+   padding:15px;
+}
+.res{
+    padding: 0px 27px;
+}
+swiper {
+    height: 400rpx;
+    width: 100%;
+  }
+  swiper-item {
+    height: 100%;
+    width: 100%;
+  }
+  image{
+text-align: center;
+  }
+#img-play{
+    padding-left: 10%;
+    padding-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+view{
+    background-color: honeydew;
+}
+#back{
+    font-size: 39rpx;
+    background:honeydew;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: honeydew;
+  }
+  .Scancode{
+    background:rgb(75, 187, 87);
+    color: white;
+    border: 5px solid white;
+    /* padding: 3px; */
+
+  }
+  

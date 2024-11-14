@@ -1,0 +1,51 @@
+<!--know/know.wxml-->
+<!-- 监听自定义事件，关键字bind+事件名 -->
+<Tabs tabs1="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+  <block wx:if="{{tabs[0].isActive}}">
+    <view class="firstTab" style="color: white;">
+      <navigator class="goods_item" url="/know/rust/rust" open-type="navigate">
+       <!-- 左侧图片容器 -->
+       <view class="goods_img_wrap">
+         <image mode="widthFix" src="../images/rust.jpg"></image>
+       </view>
+       <!-- 右侧商品信息容器 -->
+       <view class="goods_info_wrap">
+         <view class="goods_price" style="padding-bottom: 5px;">小麦条锈病</view>
+       </view>
+       </navigator>
+       <navigator class="goods_item" url="/know/yellow/yellow" open-type="navigate">
+       <!-- 左侧图片容器 -->
+       <view class="goods_img_wrap">
+         <image mode="widthFix" src="../images/yellow.jpg"></image>
+       </view>
+       <!-- 右侧商品信息容器 -->
+       <view class="goods_info_wrap">
+       
+         
+         <view class="goods_price" style="padding-bottom: 5px;">小麦黄矮病</view>
+       </view>
+       </navigator>
+       <!--#############################################################-->
+       <!--这是结果测试链接框，便于快速进入识别结果界面以测试识别结果，正式使用时请删除-->
+       <navigator class="goods_item" url="/res/res" open-type="navigate">
+       <!-- 左侧图片容器 -->
+       <view class="goods_img_wrap">
+         <image mode="widthFix" src="../images/rust.jpg"></image>
+       </view>
+       <!-- 右侧商品信息容器 -->
+       <view class="goods_info_wrap">
+         <view class="goods_price" style="padding-bottom: 5px;">结果测试框</view>
+       </view>
+       </navigator>
+        <!--#############################################################-->
+    </view>
+  </block>
+  <block wx:elif="{{tabs[1].isActive}}">
+    1
+  </block>
+  <block wx:elif="{{tabs[2].isActive}}">
+    2
+  </block>
+</Tabs>
+
+

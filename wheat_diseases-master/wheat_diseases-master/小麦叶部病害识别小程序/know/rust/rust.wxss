@@ -1,0 +1,74 @@
+/* know/rust/rust.wxss */
+#body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.title{
+    color: rgb(75, 187, 87);
+    size: 80px;
+    font-weight: bolder;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 13px;
+    border-right: solid rgb(75,187,87) 3px;
+}
+.xx{
+    display: flex;
+    flex-direction: column;
+}
+
+.stitle{
+    font-weight: bolder;
+}
+
+.xx{
+    border: solid gray 1px;
+    margin-bottom: 5px;
+}
+p{
+   padding:15px;
+}
+#img-play
+{
+    height: 400rpx;
+    width: 700rpx;
+}
+swiper {
+    height: 400rpx;
+    width: 100%;
+  }
+  swiper-item {
+    height: 100%;
+    width: 100%;
+  }
+image{
+    height: 100%;
+    width: 100%;
+  }
+  .slide-image{
+     height: 100%;
+    width: 100%;
+  }
+#img-play{
+    padding:0 10px;
+}
+
+view{
+    background-color: honeydew;
+}
+
+.Scancode {
+  
+    font-size: 39rpx;
+    background:rgb(75, 187, 87);
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  
